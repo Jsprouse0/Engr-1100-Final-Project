@@ -3,5 +3,5 @@ This is a data collection project that takes a topic we choose and displays the 
 It is also easier to visualize what I want through a GUI.
 
 How To Run:
-if you want to run the GUI just install the files through the "Code" button,
-for now it needs to be ran through an IDE I am updating this to add an Executable so it is easier to run.
+if you want to run the GUI just install the files through the "Code" button, the program does require PySide6 so to install that you need to "pip install PySide6" into the IDE for now.
+after PySide6 is done installing it should work and you can check out the menu without problems.
