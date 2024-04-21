@@ -1,4 +1,5 @@
 from ui_interface import *
+from PySide6.QtWidgets import QMainWindow, QApplication
 from Graphs import Graphs
 
 import sys
@@ -92,21 +93,31 @@ class MainWindow(QMainWindow):
     Function change_widget() takes the index of the widget and sets it to the current index
     of the page shown in the menu.
         - when clicked, the widget calls change_widget and sends the index as a parameter.
-            the function then changes all buttons to false after the designated widget is 
-            shown after this function is called.
+          the function then changes all buttons to false after the designated widget is 
+          shown after this function is called.
     """
 
     def change_widget(self, index):
         widget = self.ui.stackedWidget
         widget.setCurrentIndex(index)
 
-        if index == 0:
-            if widget.count() > 0:
-                widget.removeWidget(self.ui.stackedWidget.widget(0))
+        current_widget = widget.currentWidget()
+        if current_widget is not None:
+            widget.removeWidget(current_widget)
 
-            graph_widget = self.graph.company_cloud_breaches_data()
-            widget.insertWidget(0, graph_widget)
-            widget.setCurrentIndex(0)
+        if index == 0:
+            graph_widget = self.graph.company_cybercrime_data()
+        if index == 1:
+            graph_widget = self.graph.united_states_cybercrime_data()
+        if index == 2:
+            graph_widget = self.graph.russian_cybercrime_data()
+        if index == 3:
+            graph_widget = self.graph.chinese_cybercrime_data()
+        if index == 4:
+            graph_widget = self.graph.uk_cybercrime_data()
+
+        widget.insertWidget(index, graph_widget)
+        widget.setCurrentIndex(index)
 
         # Reset all the chart buttons to unchecked
         chart_buttons = [

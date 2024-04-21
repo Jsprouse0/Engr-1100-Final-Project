@@ -1,16 +1,10 @@
-
-
-from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,
-    QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
-    QLabel, QMainWindow, QPushButton, QSizePolicy,
-    QStackedWidget, QVBoxLayout, QWidget)
-import Images_rc
+from PySide6.QtCore import (QCoreApplication, QMetaObject, QSize, Qt)
+from PySide6.QtGui import (QIcon,
+                           QPixmap)
+from PySide6.QtWidgets import (QFrame, QGridLayout, QHBoxLayout,
+                               QLabel, QPushButton, QSizePolicy,
+                               QStackedWidget, QVBoxLayout, QWidget)
+from imgs import Images_rc
 
 
 class Ui_MainWindow(object):
@@ -708,7 +702,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(2)
+        self.stackedWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -719,10 +713,10 @@ class Ui_MainWindow(object):
         self.label_15.setText("")
         self.label.setText(QCoreApplication.translate("MainWindow", u"  CHART DATA", None))
         self.company_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u" Major Company Breaches", None))
-        self.us_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"  U.S Major Cloud Breaches", None))
-        self.russian_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"Russian Major Cloud Breaches", None))
-        self.china_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"China Major Cloud Breaches", None))
-        self.uk_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"U.K. Major Cloud Breaches", None))
+        self.us_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"  U.S Cyber Crimes Data", None))
+        self.russian_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"Russian Cyber Crimes Data", None))
+        self.china_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"China Cyber Crimes Data", None))
+        self.uk_cloud_breaches_button.setText(QCoreApplication.translate("MainWindow", u"U.K. Cyber Crimes Data", None))
         self.label_16.setText("")
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"  Engineering 1100 Final Project", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Jacob Sprouse", None))

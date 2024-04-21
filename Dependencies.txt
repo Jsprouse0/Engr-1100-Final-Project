@@ -1,5 +1,9 @@
 PySide6:
-pip install PySide6
+py -m pip install PySide6
 
 Pandas:
-pip install pandas
+py -m pip install pandas
+
+Matplotlib:
+if you have an older version of python without Matplotlib
+py -m pip install Matplotlib

@@ -328,7 +328,7 @@ background-color: rgb(50, 68, 85);
              </size>
             </property>
             <property name="text">
-             <string>  U.S Major Cloud Breaches</string>
+             <string>  U.S Cyber Crimes Data</string>
             </property>
             <property name="icon">
              <iconset resource="../imgs/Images.qrc">
@@ -357,7 +357,7 @@ background-color: rgb(50, 68, 85);
              </size>
             </property>
             <property name="text">
-             <string>Russian Major Cloud Breaches</string>
+             <string>Russian Cyber Crimes Data</string>
             </property>
             <property name="icon">
              <iconset resource="../imgs/Images.qrc">
@@ -386,7 +386,7 @@ background-color: rgb(50, 68, 85);
              </size>
             </property>
             <property name="text">
-             <string>China Major Cloud Breaches</string>
+             <string>China Cyber Crimes Data</string>
             </property>
             <property name="icon">
              <iconset resource="../imgs/Images.qrc">
@@ -415,7 +415,7 @@ background-color: rgb(50, 68, 85);
              </size>
             </property>
             <property name="text">
-             <string>U.K. Major Cloud Breaches</string>
+             <string>U.K. Cyber Crimes Data</string>
             </property>
             <property name="icon">
              <iconset resource="../imgs/Images.qrc">
