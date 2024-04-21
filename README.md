@@ -22,5 +22,5 @@ You can run the program through the command line or through an IDE,
 * IDE> run the main program inside your ide (*make sure you have dependencies installed*)
 
 # Example of GUI
-![Screenshot 2024-04-19 124420](https://github.com/Jsprouse0/Engr-1100-Final-Project/assets/95829867/9f9225fa-14f1-4485-872a-2063d649bc73)
+![Screenshot 2024-04-21 184434](https://github.com/Jsprouse0/Engr-1100-Final-Project/assets/95829867/dafa36f4-ab4f-4938-aa9d-c80f98398cca)
 The image above is an example of our GUI and what it looks like currently
