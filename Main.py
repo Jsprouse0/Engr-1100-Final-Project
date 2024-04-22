@@ -136,5 +136,6 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
     executable = QApplication(sys.argv)
     window = MainWindow()
+    window.change_widget(0)
     window.show()
     sys.exit(executable.exec())

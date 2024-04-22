@@ -735,5 +735,4 @@ class Ui_MainWindow(object):
         self.label_13.setText(QCoreApplication.translate("MainWindow", u"China Major Cloud Breaches", None))
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"U.K. Major Cloud Breaches", None))
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"Auburn University", None))
-    # retranslateUi
 
